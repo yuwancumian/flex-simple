@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<style type="text/css">
+		.container{
+			border:  3px solid #1976d2;
+			height: 80vh;
+			display: flex;
+			justify-content: space-around;
+			-ms-align-items: flex-end;
+			align-items: flex-end;
+		}
+		.item{
+			font-size: 100px;
+			height: 200px;
+			color: #fff;
+			width: 300px;
+			text-align: center;
+		}
+		.blue{
+			-ms-align-self: center;
+			align-self: center;
+		}
+		.pink{
+			-ms-align-self: flex-start;
+			align-self: flex-start;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item pink">1</div>
+		<div class="item purple">2</div>
+		<div class="item blue">3</div>
+		<div class="item orange">4</div>
+	</div>
+</body>
+</html>
